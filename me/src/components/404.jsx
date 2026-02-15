@@ -1,5 +1,5 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 function NotFound() {
   return (
@@ -7,16 +7,17 @@ function NotFound() {
       <h1 className="text-5xl font-bold text-red-500 mb-4">404</h1>
       <h2 className="text-3xl font-semibold mb-4">Page Not Found</h2>
       <p className="text-lg text-gray-100 mb-6">
-        Sorry, the page you're looking for doesn't exist. Would you like to go back to the home page?
+        Sorry, the page you're looking for doesn't exist. Would you like to go
+        back to the home page?
       </p>
-      <Link 
-        to="/" 
+      <Link
+        to="/"
         className="inline-block px-8 py-3 bg-red-500 text-white rounded-lg hover:bg-red-600 transition-colors font-semibold"
       >
         Back to Home
       </Link>
     </div>
-  )
+  );
 }
 
-export default NotFound
+export default NotFound;
