@@ -49,6 +49,7 @@ export default function MyWork() {
         { text: 'lab automation', color: 'bg-teal-600' },
         { text: 'Electron.js', color: 'bg-teal-600' },
         { text: 'COM interop', color: 'bg-teal-600' },
+        { text: '.NET', color: 'bg-teal-600' },
       ],
       tallImageRight: true,
       sections: [
@@ -66,6 +67,7 @@ export default function MyWork() {
             'Deep Windows COM object integration for controlling lab automation equipment',
             'Error recovery and fault tolerance for long-running unattended operations',
             'C# backend services for hardware communication and process orchestration',
+            'Custom Wix-based installer with dependency management and auto-update capabilities',
           ],
         },
       ],
