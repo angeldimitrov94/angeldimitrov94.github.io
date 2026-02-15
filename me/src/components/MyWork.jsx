@@ -18,13 +18,68 @@ export default function MyWork() {
       sections: [
         {
           title: 'Stack & Architecture',
-          content:
-            '• Angular SPA with RxJS for reactive state management\n• Node.js/Express REST API with MongoDB\n• OpenAI API integration for intelligent location suggestions\n• Google Maps/Routes API for interactive mapping and routing\n• Docker for containerized deployment\n• Nginx reverse proxy with SSL termination',
+          content: [
+            'Angular with RxJS for reactive state management',
+            'Node.js/Express REST API with MongoDB',
+            'OpenAI API integration for intelligent location suggestions',
+            'Google Maps/Routes API for interactive mapping and routing',
+            'Docker for containerized deployment',
+            'Nginx reverse proxy with SSL termination',
+          ],
         },
         {
           title: 'Key Implementation Details',
-          content:
-            '• Dynamic route optimization using Directions API\n• Drag-and-drop reordering with persistence layer\n• Real-time collaborative editing with WebSocket synchronization\n• Server-side rendering for shareable itinerary links\n• Rate limiting and caching strategies for external API calls',
+          content: [
+            'Dynamic route optimization using Directions API',
+            'Drag-and-drop reordering with persistence layer',
+            'Real-time collaborative editing with WebSocket synchronization',
+            'Server-side rendering for shareable itinerary links',
+            'Rate limiting and caching strategies for external API calls',
+          ],
+        },
+      ],
+    },
+    {
+      title: 'Proteograph Instrument Control Software',
+      link: 'https://seer.bio/products/proteograph-product-suite/',
+      tagline:
+        'Desktop control software for automated high-throughput sample processing instrumentation.',
+      image: 'ics.png',
+      tags: [
+        { text: 'desktop automation', color: 'bg-teal-600' },
+        { text: 'Electron.js', color: 'bg-teal-600' },
+        { text: 'COM interop', color: 'bg-teal-600' },
+      ],
+      tallImageRight: true,
+      sections: [
+        {
+          title: 'Role & Scope',
+          content: [
+            'Led product development as Technical Lead and Product Owner',
+            'Delivered desktop application for SP200 robotic instrument control',
+            'Enabled automated processing of 1,000+ samples per week through workflow automation',
+          ],
+        },
+        {
+          title: 'Stack & Architecture',
+          content: [
+            'Electron.js cross-platform desktop framework',
+            'React for UI components and state management',
+            'Node.js native modules for hardware communication',
+            'Windows COM interop for third-party instrument control',
+            'SQLite for local data persistence and run tracking',
+          ],
+        },
+        {
+          title: 'Technical Challenges',
+          content: [
+            'Deep Windows COM object integration for controlling lab automation equipment',
+            "Bridging Electron's sandboxed renderer process with native COM bindings",
+            'Real-time instrument telemetry collection and synchronization',
+            'State machine orchestration for multi-step automated protocols',
+            'Error recovery and fault tolerance for long-running unattended operations',
+            'Packaging native dependencies with electron-builder for deployment',
+          ],
         },
       ],
     },
@@ -43,8 +98,11 @@ export default function MyWork() {
       sections: [
         {
           title: 'Technical Challenges',
-          content:
-            '• Multi-generation data schema compatibility and migration strategies\n• Implementing wizard-driven workflows to simplify complex data ingestion processes\n• Data validation and error handling for scientific accuracy',
+          content: [
+            'Multi-generation data schema compatibility and migration strategies',
+            'Implementing wizard-driven workflows to simplify complex data ingestion processes',
+            'Data validation and error handling for scientific accuracy',
+          ],
         },
       ],
     },
@@ -65,13 +123,24 @@ export default function MyWork() {
       sections: [
         {
           title: 'Integration Architecture',
-          content:
-            '• On-premise connector service with outbound-only communication\n• Multiple integration strategies: database polling, file system monitoring, REST API clients\n',
+          content: [
+            'On-premise connector service with outbound-only communication',
+            'Multiple integration strategies: database polling, file system monitoring, REST API clients',
+          ],
         },
         {
           title: 'Technical Challenges',
-          content:
-            '• GeoJSON parsing and validation for incident locations\n• State Plane Coordinate System (SPCS) to latitude/longitude conversion\n• Coordinate system transformations between NAD83, WGS84, and local projections\n• Projection library integration (ProjNET) for accurate geographic calculations\n• Address geocoding and reverse geocoding for location verification\n• Heavy data normalization across disparate data source formats\n• Configurability enhancements via standardized configuration interfaces\n• Structured logging to multiple logging targets\n• Heartbeat notifications for service health and status monitoring.',
+          content: [
+            'GeoJSON parsing and validation for incident locations',
+            'State Plane Coordinate System (SPCS) to latitude/longitude conversion',
+            'Coordinate system transformations between NAD83, WGS84, and local projections',
+            'Projection library integration (ProjNET) for accurate geographic calculations',
+            'Address geocoding and reverse geocoding for location verification',
+            'Heavy data normalization across disparate data source formats',
+            'Configurability enhancements via standardized configuration interfaces',
+            'Structured logging to multiple logging targets',
+            'Heartbeat notifications for service health and status monitoring',
+          ],
         },
       ],
     },
@@ -90,13 +159,24 @@ export default function MyWork() {
       sections: [
         {
           title: 'Stack & Architecture',
-          content:
-            '• C# .NET Framework for test sequencing engine\n• SQL Server for test state tracking and results storage\n• WPF desktop applications for operator interfaces\n• TCP/IP communication with robotic test equipment\n• Custom hardware drivers and control protocols',
+          content: [
+            'C# .NET Framework for test sequencing engine',
+            'SQL Server for test state tracking and results storage',
+            'WPF desktop applications for operator interfaces',
+            'TCP/IP communication with robotic test equipment',
+            'Custom hardware drivers and control protocols',
+          ],
         },
         {
           title: 'Technical Challenges',
-          content:
-            '• Embedded electronics debugging for prototype firmware validation\n• Flashing PCBs and firmware deployment in manufacturing environment\n• Electronics troubleshooting and diagnostics for devices under test\n• State machine design for complex multi-stage test sequences\n• Real-time hardware synchronization with millisecond-level timing constraints\n• Data integrity validation gating shipment decisions',
+          content: [
+            'Embedded electronics debugging for prototype firmware validation',
+            'Flashing PCBs and firmware deployment in manufacturing environment',
+            'Electronics troubleshooting and diagnostics for devices under test',
+            'State machine design for complex multi-stage test sequences',
+            'Real-time hardware synchronization with millisecond-level timing constraints',
+            'Data integrity validation gating shipment decisions',
+          ],
         },
       ],
     },
@@ -108,8 +188,13 @@ export default function MyWork() {
       sections: [
         {
           title: 'Stack',
-          content:
-            '• React with functional components and hooks\n• React Router for client-side routing\n• Tailwind CSS for utility-first styling\n• Vite for fast build tooling\n• Static site deployment (no backend)',
+          content: [
+            'React with functional components and hooks',
+            'React Router for client-side routing',
+            'Tailwind CSS for utility-first styling',
+            'Vite for fast build tooling',
+            'Static site deployment (no backend)',
+          ],
         },
       ],
     },
@@ -127,51 +212,73 @@ export default function MyWork() {
             key={index}
             className="bg-gradient-to-br from-black/70 to-black/50 backdrop-blur-md rounded-2xl shadow-2xl overflow-hidden border border-white/10 hover:border-white/30 transition-all duration-300 hover:shadow-3xl hover:scale-[1.01]"
           >
-            <div className="p-8">
-              {/* Header */}
-              <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-6 mb-6">
-                <div className="flex-1">
-                  <h2 className="text-4xl font-bold text-white mb-3">
-                    {project.title}
-                  </h2>
-                  {project.tags && (
-                    <div className="flex flex-wrap gap-2 mb-3">
-                      {project.tags.map((tag, tagIndex) => (
-                        <span
-                          key={tagIndex}
-                          className={`${tag.color} text-white text-xs font-semibold px-3 py-1 rounded-full`}
-                        >
-                          {tag.text}
-                        </span>
-                      ))}
-                    </div>
-                  )}
-                  {project.link && (
-                    <a
-                      href={project.link}
-                      className="text-blue-400 hover:text-blue-300 font-semibold transition-colors inline-block mb-4"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      {project.link.replace(/^https?:\/\//, '')} →
-                    </a>
-                  )}
-                  {project.tagline && (
-                    <p className="text-gray-300 italic text-lg">
-                      {project.tagline}
-                    </p>
-                  )}
+            {project.tallImageRight ? (
+              <div className="md:flex md:items-stretch">
+                <div className="p-8 md:w-1/2">
+                  {/* Header */}
+                  <div className="mb-6">
+                    <h2 className="text-4xl font-bold text-white mb-3">
+                      {project.title}
+                    </h2>
+                    {project.tags && (
+                      <div className="flex flex-wrap gap-2 mb-3">
+                        {project.tags.map((tag, tagIndex) => (
+                          <span
+                            key={tagIndex}
+                            className={`${tag.color} text-white text-xs font-semibold px-3 py-1 rounded-full`}
+                          >
+                            {tag.text}
+                          </span>
+                        ))}
+                      </div>
+                    )}
+                    {project.link && (
+                      <a
+                        href={project.link}
+                        className="text-blue-400 hover:text-blue-300 font-semibold transition-colors inline-block mb-4"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        {project.link.replace(/^https?:\/\//, '')} →
+                      </a>
+                    )}
+                    {project.tagline && (
+                      <p className="text-gray-300 italic text-lg">
+                        {project.tagline}
+                      </p>
+                    )}
+                  </div>
+
+                  {/* Sections */}
+                  <div className="space-y-6">
+                    {project.sections.map((section, sIndex) => (
+                      <div
+                        key={sIndex}
+                        className="border-l-4 border-blue-500/50 pl-6"
+                      >
+                        <h4 className="text-xl font-semibold text-blue-300 mb-2">
+                          {section.title}
+                        </h4>
+                        <ul className="text-gray-200 leading-relaxed">
+                          {Array.isArray(section.content) ? (
+                            section.content.map((item, i) => (
+                              <li key={i}>• {item}</li>
+                            ))
+                          ) : (
+                            <li>• {section.content}</li>
+                          )}
+                        </ul>
+                      </div>
+                    ))}
+                  </div>
                 </div>
 
-                {/* Image */}
                 {project.image && (
-                  <div
-                    className={`${project.imageSize || 'md:w-96'} md:flex-shrink-0`}
-                  >
+                  <div className="w-full md:w-1/2 min-h-[360px] md:min-h-0 p-3 md:p-4">
                     <img
                       src={project.image}
                       alt={project.title}
-                      className="w-full rounded-lg shadow-xl border border-white/20 hover:scale-105 transition-transform duration-300 cursor-pointer"
+                      className="h-full w-full object-contain bg-transparent cursor-pointer rounded-lg border border-white/20 transition-transform duration-300"
                       onClick={() =>
                         setPreviewImage({
                           src: project.image,
@@ -182,24 +289,87 @@ export default function MyWork() {
                   </div>
                 )}
               </div>
-
-              {/* Sections */}
-              <div className="space-y-6">
-                {project.sections.map((section, sIndex) => (
-                  <div
-                    key={sIndex}
-                    className="border-l-4 border-blue-500/50 pl-6"
-                  >
-                    <h4 className="text-xl font-semibold text-blue-300 mb-2">
-                      {section.title}
-                    </h4>
-                    <div className="text-gray-200 leading-relaxed whitespace-pre-line">
-                      {section.content}
-                    </div>
+            ) : (
+              <div className="p-8">
+                {/* Header */}
+                <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-6 mb-6">
+                  <div className="flex-1">
+                    <h2 className="text-4xl font-bold text-white mb-3">
+                      {project.title}
+                    </h2>
+                    {project.tags && (
+                      <div className="flex flex-wrap gap-2 mb-3">
+                        {project.tags.map((tag, tagIndex) => (
+                          <span
+                            key={tagIndex}
+                            className={`${tag.color} text-white text-xs font-semibold px-3 py-1 rounded-full`}
+                          >
+                            {tag.text}
+                          </span>
+                        ))}
+                      </div>
+                    )}
+                    {project.link && (
+                      <a
+                        href={project.link}
+                        className="text-blue-400 hover:text-blue-300 font-semibold transition-colors inline-block mb-4"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        {project.link.replace(/^https?:\/\//, '')} →
+                      </a>
+                    )}
+                    {project.tagline && (
+                      <p className="text-gray-300 italic text-lg">
+                        {project.tagline}
+                      </p>
+                    )}
                   </div>
-                ))}
+
+                  {/* Image */}
+                  {project.image && (
+                    <div
+                      className={`${project.imageSize || 'md:w-96'} md:flex-shrink-0`}
+                    >
+                      <img
+                        src={project.image}
+                        alt={project.title}
+                        className="w-full rounded-lg shadow-xl border border-white/20 hover:scale-105 transition-transform duration-300 cursor-pointer"
+                        onClick={() =>
+                          setPreviewImage({
+                            src: project.image,
+                            alt: project.title,
+                          })
+                        }
+                      />
+                    </div>
+                  )}
+                </div>
+
+                {/* Sections */}
+                <div className="space-y-6">
+                  {project.sections.map((section, sIndex) => (
+                    <div
+                      key={sIndex}
+                      className="border-l-4 border-blue-500/50 pl-6"
+                    >
+                      <h4 className="text-xl font-semibold text-blue-300 mb-2">
+                        {section.title}
+                      </h4>
+                      <ul className="text-gray-200 leading-relaxed">
+                        {Array.isArray(section.content) ? (
+                          section.content.map((item, i) => (
+                            <li key={i}>• {item}</li>
+                          ))
+                        ) : (
+                          <li>• {section.content}</li>
+                        )}
+                      </ul>
+                    </div>
+                  ))}
+                </div>
               </div>
-            </div>
+            )}
           </div>
         ))}
       </div>
