@@ -43,42 +43,29 @@ export default function MyWork() {
       title: 'Proteograph Instrument Control Software',
       link: 'https://seer.bio/products/proteograph-product-suite/',
       tagline:
-        'Desktop control software for automated high-throughput sample processing instrumentation.',
+        'Desktop software for automated high-throughput sample processing.',
       image: 'ics.png',
       tags: [
-        { text: 'desktop automation', color: 'bg-teal-600' },
+        { text: 'lab automation', color: 'bg-teal-600' },
         { text: 'Electron.js', color: 'bg-teal-600' },
         { text: 'COM interop', color: 'bg-teal-600' },
       ],
       tallImageRight: true,
       sections: [
         {
-          title: 'Role & Scope',
-          content: [
-            'Led product development as Technical Lead and Product Owner',
-            'Delivered desktop application for SP200 robotic instrument control',
-            'Enabled automated processing of 1,000+ samples per week through workflow automation',
-          ],
-        },
-        {
           title: 'Stack & Architecture',
           content: [
-            'Electron.js cross-platform desktop framework',
-            'React for UI components and state management',
-            'Node.js native modules for hardware communication',
+            'Electron.js desktop packaging',
+            'Angular UI components and RxJS state management',
             'Windows COM interop for third-party instrument control',
-            'SQLite for local data persistence and run tracking',
           ],
         },
         {
           title: 'Technical Challenges',
           content: [
             'Deep Windows COM object integration for controlling lab automation equipment',
-            "Bridging Electron's sandboxed renderer process with native COM bindings",
-            'Real-time instrument telemetry collection and synchronization',
-            'State machine orchestration for multi-step automated protocols',
             'Error recovery and fault tolerance for long-running unattended operations',
-            'Packaging native dependencies with electron-builder for deployment',
+            'C# backend services for hardware communication and process orchestration',
           ],
         },
       ],
