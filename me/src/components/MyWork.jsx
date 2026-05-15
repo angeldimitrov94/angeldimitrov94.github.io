@@ -4,41 +4,41 @@ export default function MyWork() {
   const [previewImage, setPreviewImage] = React.useState(null);
 
   const projects = [
-    {
-      title: 'Itinerary Fairy',
-      link: 'https://itineraryfairy.com/',
-      tagline: 'AI-powered travel itinerary builder with mapping integrations.',
-      image: 'https://itineraryfairy.com/if-256.png',
-      imageSize: 'w-24',
-      tags: [
-        { text: 'AI-assisted', color: 'bg-purple-600' },
-        { text: 'travel', color: 'bg-purple-600' },
-        { text: 'geospatial data', color: 'bg-purple-600' },
-      ],
-      sections: [
-        {
-          title: 'Stack & Architecture',
-          content: [
-            'Angular with RxJS for reactive state management',
-            'Node.js/Express REST API with MongoDB',
-            'OpenAI API integration for intelligent location suggestions',
-            'Google Maps/Routes API for interactive mapping and routing',
-            'Docker for containerized deployment',
-            'Nginx reverse proxy with SSL termination',
-          ],
-        },
-        {
-          title: 'Key Implementation Details',
-          content: [
-            'Dynamic route optimization using Directions API',
-            'Drag-and-drop reordering with persistence layer',
-            'Real-time collaborative editing with WebSocket synchronization',
-            'Server-side rendering for shareable itinerary links',
-            'Rate limiting and caching strategies for external API calls',
-          ],
-        },
-      ],
-    },
+    // {
+    //   title: 'Itinerary Fairy',
+    //   link: 'https://itineraryfairy.com/',
+    //   tagline: 'AI-powered travel itinerary builder with mapping integrations.',
+    //   image: 'https://itineraryfairy.com/if-256.png',
+    //   imageSize: 'w-24',
+    //   tags: [
+    //     { text: 'AI-assisted', color: 'bg-purple-600' },
+    //     { text: 'travel', color: 'bg-purple-600' },
+    //     { text: 'geospatial data', color: 'bg-purple-600' },
+    //   ],
+    //   sections: [
+    //     {
+    //       title: 'Stack & Architecture',
+    //       content: [
+    //         'Angular with RxJS for reactive state management',
+    //         'Node.js/Express REST API with MongoDB',
+    //         'OpenAI API integration for intelligent location suggestions',
+    //         'Google Maps/Routes API for interactive mapping and routing',
+    //         'Docker for containerized deployment',
+    //         'Nginx reverse proxy with SSL termination',
+    //       ],
+    //     },
+    //     {
+    //       title: 'Key Implementation Details',
+    //       content: [
+    //         'Dynamic route optimization using Directions API',
+    //         'Drag-and-drop reordering with persistence layer',
+    //         'Real-time collaborative editing with WebSocket synchronization',
+    //         'Server-side rendering for shareable itinerary links',
+    //         'Rate limiting and caching strategies for external API calls',
+    //       ],
+    //     },
+    //   ],
+    // },
     {
       title: 'Proteograph Instrument Control Software',
       link: 'https://seer.bio/products/proteograph-product-suite/',
@@ -68,6 +68,29 @@ export default function MyWork() {
             'Error recovery and fault tolerance for long-running unattended operations',
             'C# backend services for hardware communication and process orchestration',
             'Custom Wix-based installer with dependency management and auto-update capabilities',
+          ],
+        },
+      ],
+    },
+    {
+      title: 'Mass Spectrometry File Transfer',
+      link: null,
+      tagline:
+        'Electron.js Angular app for autonomously transferring mass spectrometry files to S3 for analysis pipelines.',
+      image: 'data_transfer.png',
+      tags: [
+        { text: 'Electron.js', color: 'bg-teal-600' },
+        { text: 'Node.js', color: 'bg-teal-600' },
+        { text: 'Big Data', color: 'bg-teal-600' },
+        { text: 'AWS S3', color: 'bg-teal-600' },
+      ],
+      sections: [
+        {
+          title: 'Solution Overview',
+          content: [
+            'Autonomous desktop transfer of mass spectrometry data from client machines',
+            'Secure upload into user-specific AWS S3 buckets',
+            'Seamless handoff for downstream analysis pipelines',
           ],
         },
       ],
