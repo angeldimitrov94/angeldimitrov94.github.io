@@ -35,6 +35,12 @@ export default function Header() {
           My Work
         </a>
         <a
+          href="#/sub-apps"
+          className="text-white no-underline px-3 py-2 rounded-lg transition-all duration-180 hover:bg-white/20 hover:text-white font-medium"
+        >
+          Sub-Apps
+        </a>
+        <a
           href="#/contact"
           className="text-white no-underline px-3 py-2 rounded-lg transition-all duration-180 hover:bg-white/20 hover:text-white font-medium"
         >

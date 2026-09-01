@@ -9,6 +9,7 @@ import Home from './components/Home';
 import About from './components/About';
 import MyWork from './components/MyWork';
 import Contact from './components/Contact';
+import SubApps from './components/SubApps';
 import NotFound from './components/NotFound';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/my-work" element={<MyWork />} />
+            <Route path="/sub-apps" element={<SubApps />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<NotFound />} />
           </Routes>

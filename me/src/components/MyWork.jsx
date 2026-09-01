@@ -121,8 +121,20 @@ export default function MyWork() {
     {
       title: 'Tablet Command CAD Integration',
       link: 'https://www.tabletcommand.com/cad_integration',
-      tagline:
-        'Real-time CAD-to-field integration for emergency response systems.',
+      tagline: (
+        <span>
+          Real-time CAD-to-field integration for emergency response systems, trusted by over{' '}
+          <a
+            href="https://www.tabletcommand.com/blog/tablet-command-modern-tools-for-modern-incidents"
+            target="_blank"
+            rel="noreferrer"
+            className="text-blue-400 hover:text-blue-300 underline"
+          >
+            1,500 public safety agencies
+          </a>
+          .
+        </span>
+      ),
       image:
         'https://www.tabletcommand.com/hs-fs/hubfs/Screen%20Shot%202021-03-22%20at%2011.06.46%20AM.png?width=1688&height=1010&name=Screen%20Shot%202021-03-22%20at%2011.06.46%20AM.png',
       tags: [

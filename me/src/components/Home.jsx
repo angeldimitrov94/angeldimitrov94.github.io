@@ -12,8 +12,15 @@ export default function Home() {
           className="text-white no-underline font-semibold hover:underline"
         >
           work
-        </a>{' '}
-        or{' '}
+        </a>
+        , check out my{' '}
+        <a
+          href="#/sub-apps"
+          className="text-white no-underline font-semibold hover:underline"
+        >
+          sub-apps
+        </a>
+        , or{' '}
         <a
           href="#about"
           className="text-white no-underline font-semibold hover:underline"
