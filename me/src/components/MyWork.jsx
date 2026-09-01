@@ -162,7 +162,7 @@ export default function MyWork() {
       tagline:
         'C# manufacturing test execution platform for robotic hardware verification.',
       image:
-        'https://assets.omron-ap.com/wp-content/uploads/2023/03/29090217/netherlands_img_03.jpg',
+        'https://robotics.omron.com/wp-content/uploads/2026/04/i4L-Omron-360-0001_Transparent1.webp?w=768',
       tags: [
         { text: 'robotics', color: 'bg-blue-900' },
         { text: 'manufacturing', color: 'bg-blue-900' },
@@ -205,6 +205,7 @@ export default function MyWork() {
             'React Router for client-side routing',
             'Tailwind CSS for utility-first styling',
             'Vite for fast build tooling',
+            "Custom personal font 'AngelSchrift' created from my own handwriting, integrated via Tailwind CSS",
             'Static site deployment (no backend)',
           ],
         },

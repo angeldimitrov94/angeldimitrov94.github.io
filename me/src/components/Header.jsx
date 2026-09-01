@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Header() {
   return (
-    <nav className="w-full max-w-4xl mx-auto mb-4 bg-black/60 backdrop-blur-md border-b border-white/30 flex items-center justify-between p-2 rounded-lg sticky top-4 z-50 shadow-lg">
+    <nav className="w-full max-w-4xl mx-auto mb-4 bg-black/60 backdrop-blur-md border-b border-white/30 flex items-center justify-between p-2 rounded-lg sticky top-4 z-50 shadow-lg font-handwriting text-lg">
       <button
         id="hamburger"
         aria-label="Open navigation"

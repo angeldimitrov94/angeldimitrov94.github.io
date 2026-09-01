@@ -7,15 +7,10 @@ export default function About() {
       <h2 className="text-4xl text-white my-3">Angel Dimitrov</h2>
       <img src="./me.jpg" className="headshot"></img>
       <p className="text-white mb-4">
-        Senior Software Engineer with 8+ years building and owning backend and
-        full‑stack systems for robotics, manufacturing, and scientific
-        instrumentation. I have served as a technical owner for high-criticality
-        instrumentation software and ETL platforms, driving reliability and
-        scalability in production environments. I regularly lead
-        cross‑functional initiatives, set interface and API standards, and
-        mentor engineers to improve code quality and delivery speed. I balance
-        technical leadership with pragmatic engineering to reduce operational
-        cost and ship reliable solutions.
+        I'm a software engineer who cares about tackling complex technical puzzles, not the title on my business card. For the past eight years, I've focused on building software in complex-system settings where reliability is paramount and systems absolutely have to hold up under pressure.
+      </p>
+      <p className="text-white mb-4">
+        I approach engineering with zero ego. If a deep problem needs solving, I will jump into whatever layer of the stack is required to fix it, whether that means diving into low-level device communication, writing robust backends, or cleaning up user-facing interfaces. My main goal is always to design extensible architectures that scale cleanly with a company's growth, making sure the codebase stays clear, maintainable, and ready for whatever needs to be built next.
       </p>
       <p className="text-white mb-4">
         Find me on{' '}
@@ -38,6 +33,11 @@ export default function About() {
         </a>
         .
       </p>
+      <div className="mt-8 pt-6 border-t border-white/10 text-right">
+        <span className="font-handwriting text-5xl text-pink-300 inline-block -rotate-1 tracking-wide select-none">
+          Angel Dimitrov
+        </span>
+      </div>
     </div>
   );
 }
